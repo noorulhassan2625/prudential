@@ -1,0 +1,405 @@
+body {
+  margin: 0px;
+  background-color: white;
+}
+.topHeader {
+  padding: 20px 80px !important;
+}
+button {
+  font-size: 16px !important;
+  padding: 25px 25px !important;
+  font-weight: 700 !important;
+  color: white !important;
+  background-color: #ff9f1c !important;
+  border-radius: 5px !important;
+}
+.hero {
+  background-color: white;
+  margin-top: 50px;
+}
+.mainTitle {
+  font-size: 42px !important;
+  font-weight: 700 !important;
+  color: #273653 !important;
+}
+.mainText {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #273653 !important;
+}
+.searchBar {
+  margin-top: 20px;
+  border: 1px solid #dddddd !important;
+  border-radius: 13px;
+  padding: 8px;
+}
+.searchBar input {
+  border: 0px !important;
+  margin-top: 10px !important;
+  font-size: 20px;
+}
+.investorsLogo {
+  background-color: #f2f8fe !important;
+}
+.sectionTitle {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #273653 !important;
+  text-align: center;
+  margin-top: 0px !important;
+  padding-top: 30px;
+}
+
+.ant-steps-item-content {
+  width: 100% !important;
+}
+.ant-steps-item-tail,
+.ant-steps-item-icon {
+  margin-inline-start: 50% !important;
+}
+.ant-steps-item-icon {
+  background-color: rgb(255 232 232) !important;
+  position: relative;
+  left: -10px;
+}
+.ant-steps-item-active .ant-steps-item-icon {
+  background-color: rgb(114, 60, 240) !important;
+}
+.stepTitle,
+.ant-steps-item-title {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: #273653 !important;
+}
+.stepText,
+.ant-steps-item-description {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #273653 !important;
+}
+
+.subscribeToEmail {
+  background-color: #3c99ff !important;
+  padding-bottom: 30px;
+}
+.subscribeToEmail .sectionTitle {
+  color: white !important;
+}
+.subscribeToEmail .searchBar {
+  background-color: white !important;
+}
+.subscribeToEmail .searchBar input {
+  margin-top: 5px !important;
+}
+.subscribeToEmail .counterTitle,
+.subscribeToEmail .counterText {
+  color: white !important;
+  font-weight: 700 !important;
+}
+.subscribeToEmail .counterTitle {
+  font-size: 50px;
+  padding-bottom: 10px;
+  /* margin-bottom: 0px; */
+  border: 1px solid black;
+  margin: 20px 60px 0px 60px;
+}
+.subscribeToEmail .counterText {
+  font-size: 16px;
+}
+.testimonialImage {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.testimonialsTitle {
+  font-size: 28px !important;
+  color: #273653 !important;
+  font-weight: 700 !important;
+}
+.testimonialsText {
+  font-size: 14px !important;
+  color: #72757d !important;
+  font-weight: 700 !important;
+}
+
+.testimonials-container {
+  margin: 0 auto;
+  padding: 40px 20px 80px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f2f8fe !important;
+}
+
+.card-wrapper {
+  height: 100%; /* Ensures equal card height */
+  display: flex;
+  box-shadow: 0 4px 20px rgba(55, 106, 206, 0.1);
+  margin: 30px;
+}
+
+.ant-card {
+  flex: 1; /* Makes sure all cards take equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.ant-card-body {
+  flex: 1; /* Ensures content stretches evenly */
+  display: flex;
+  flex-direction: column;
+}
+
+.offerTable {
+  box-shadow: 0 4px 20px rgba(55, 106, 206, 0.1);
+}
+
+.recently-sold-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f5f7fa;
+}
+
+.recently-sold-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.recently-sold-card {
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+}
+
+.property-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sold-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+}
+
+.property-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.recently-sold-card .ant-card-body {
+  position: absolute;
+  background: linear-gradient(
+    1turn,
+    rgba(0, 0, 0, 0.8),
+    transparent 50%
+  ) !important;
+  bottom: 0px;
+  width: 100%;
+}
+.recently-sold-card .ant-card-body h4,
+.recently-sold-card .ant-card-body span.ant-typography {
+  color: white;
+  text-align: start;
+}
+
+.faq-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.faq-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.faq-collapse {
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.faq-panel {
+  font-size: 16px;
+}
+.faq-section .ant-collapse-expand-icon {
+  position: absolute;
+  right: 0px;
+}
+.ant-collapse-header-text {
+  text-align: start;
+  font-weight: 700;
+  color: #273653;
+  font-size: 16px;
+}
+.ant-collapse-content-box p {
+  text-align: start;
+  margin: 0px !important;
+  font-weight: 400;
+  color: #273653;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+  margin-bottom: 140px;
+}
+.footerText {
+  font-size: 12px !important;
+  color: #8e929c !important;
+  font-weight: 400 !important;
+}
+
+@keyframes slideAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logo-slider {
+  overflow: hidden;
+  padding: 30px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logo-slider::before,
+.logo-slider::after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logo-track {
+  display: inline-block;
+  animation: 35s slideAnimation infinite linear;
+}
+
+.logo-slider:hover .logo-track {
+  animation-play-state: paused;
+}
+
+.logo-item {
+  margin: 0 30px;
+  height: 20px;
+}
+.logo-slider-section {
+  background-color: #273652;
+}
+.logo-slider-section .sectionTitle {
+  color: #ff9f2a !important;
+  padding-top: 10px !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.logo-slider-section .titleBox {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: white !important;
+}
+.logo-slider-section {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* ======== Responsive CSS ======= */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .ant-steps-item-container {
+    width: 200px;
+  }
+  button.ant-btn {
+    padding: 20px 10px !important;
+    font-size: 14px !important;
+  }
+  .subscribeToEmail .counterTitle {
+    margin: 20px 30px 0px 30px;
+  }
+  .card-wrapper {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 599px) {
+  .ant-steps-item-container {
+    width: 100%;
+  }
+  button.ant-btn {
+    padding: 20px 10px !important;
+    font-size: 14px !important;
+  }
+  .subscribeToEmail .counterTitle {
+    margin: 20px 15px 0px 15px;
+    font-size: 25px;
+  }
+  .card-wrapper {
+    margin: 0px;
+  }
+  .topHeader {
+    padding: 20px !important;
+  }
+  .steps-container {
+    padding: 20px !important;
+  }
+  .steps-wrapper {
+    gap: 40px !important;
+  }
+  .ant-steps-item-tail,
+  .ant-steps-item-icon {
+    margin-inline-start: 0% !important;
+  }
+  .ant-steps-item-tail {
+    padding: 38px 0 0px !important;
+    inset-inline-start: -3px !important;
+  }
+  .subscribeToEmail .ant-col-12 {
+    max-width: 80% !important;
+  }
+  .offerDetails {
+    padding: 20px !important;
+  }
+  .offerDetails .ant-col-16 {
+    max-width: 100% !important;
+  }
+  .recently-sold-container .recently-sold-card {
+    width: 100% !important;
+    display: block !important;
+    flex: none;
+  }
+  .footer .ant-col-14 {
+    max-width: 80% !important;
+  }
+  .logo-slider-section .ant-row {
+    display: block !important;
+  }
+  .logo-slider-section .ant-col-6 ,  .logo-slider-section .ant-col-18 {
+    max-width: 100% !important;
+  }
+  .logo-slider-section .ant-col-6 h3{
+    margin: 0px !important;
+    padding-bottom: 0px !important;
+    text-align: center;
+  }
+  .logo-slider{
+    padding: 8px 0px !important;
+  }
+}
