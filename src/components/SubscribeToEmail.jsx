@@ -16,8 +16,8 @@ function SubscribeToEmail () {
           className='searchBar'
         />
       </Col>
-      <Row>
-        <Col span={8} style={{textAlign:'center'}}>
+      <Row style={{justifyContent:'center'}}>
+        <Col span={6} style={{textAlign:'center'}}>
         <Contentbox
           titleClass={'counterTitle'}
           titleContent={'100K+'}
@@ -27,7 +27,7 @@ function SubscribeToEmail () {
           }
         />
         </Col>
-        <Col span={8} style={{textAlign:'center'}}>
+        <Col span={6} style={{textAlign:'center'}}>
         <Contentbox
           titleClass={'counterTitle'}
           titleContent={'20K+'}
@@ -37,7 +37,7 @@ function SubscribeToEmail () {
           }
         />
         </Col>
-        <Col span={8} style={{textAlign:'center'}}>
+        <Col span={6} style={{textAlign:'center'}}>
         <Contentbox
           titleClass={'counterTitle'}
           titleContent={'$1B+'}
