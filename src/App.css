@@ -322,6 +322,9 @@ button {
   bottom: 0px;
   width: 100%;
 }
+.MobileSteps {
+  display: none !important;
+}
 
 /* ======== Responsive CSS ======= */
 @media screen and (min-width: 600px) and (max-width: 900px) {
@@ -341,6 +344,9 @@ button {
 }
 
 @media screen and (min-width: 375px) and (max-width: 599px) {
+  .hero-content{
+    padding: 30px !important;
+  }
   .ant-steps-item-container {
     width: 100%;
   }
@@ -402,5 +408,31 @@ button {
   }
   .logo-slider{
     padding: 8px 0px !important;
+  }
+  .DesktopSteps {
+    display: none !important;
+  }
+  .MobileSteps {
+    display: block !important;
+  }
+  .MobileSteps .ant-steps-item-content {
+    text-align: center !important;
+  }
+  .MobileSteps .ant-steps-item-tail{
+    display: block !important;  
+  }
+  .MobileSteps img{
+    width: 100px !important;
+    position: relative;
+    left: -20px;
+  }
+  .logos-row {
+    margin-top: 0px !important;
+  }
+  .logos-row img{
+    margin-top: 50px;
+  }
+  .hero .ant-input.ant-input-lg{
+    margin-top: 0px !important;
   }
 }

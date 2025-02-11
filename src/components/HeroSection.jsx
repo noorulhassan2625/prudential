@@ -5,7 +5,7 @@ import Contentbox from './subComponents/Contentbox'
 export default function HeroSection () {
   return (
     <Row className='hero' justify='center' align='middle'>
-      <Col style={{ padding: '60px' }} xs={24} md={12}>
+      <Col className='hero-content' style={{ padding: '60px' }} xs={24} md={12}>
         <Contentbox
           titleClass={'mainTitle'}
           titleContent={'Who will win? Who can close in 7 days?'}
