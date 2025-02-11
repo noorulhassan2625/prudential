@@ -14,12 +14,12 @@ function FooterBox () {
           completing a final transaction. Closing times may vary.
         </Text>
         <Row>
-          <Col span={12}>
+          <Col  xs={24} md={12}>
             <Text className={'footerText'}>
               © 2021 Prudential Homes of America. All rights reserved.
             </Text>
           </Col>
-          <Col span={12}>
+          <Col  xs={24} md={12}>
             <Text className={'footerText'}>
               <Link style={{margin:'0px 20px'}} href='#' >Privacy Policy</Link> | <Link style={{margin:'0px 20px'}} href='#'>Terms of Use</Link>
             </Text>

@@ -22,7 +22,7 @@ export default function InvestorLogos() {
         Compare cash offers from the biggest investors and cash buyers in the USA
       </Title>
       
-      <Row gutter={[16, 16]} justify="center" style={{ marginTop: '50px' }}>
+      <Row className='logos-row' gutter={[16, 16]} justify="center" style={{ marginTop: '50px' }}>
         {logos.slice(0, 4).map((logo, index) => (
           <Col key={index} xs={12} sm={6}>
             <ImageDisplay className="logo" imageLink={logo} width={'160PX'} preview={false} />
@@ -30,7 +30,7 @@ export default function InvestorLogos() {
         ))}
       </Row>
 
-      <Row gutter={[16, 16]} justify="center" style={{ marginTop: '50px' }}>
+      <Row  className='logos-row' gutter={[16, 16]} justify="center" style={{ marginTop: '50px' }}>
         {logos.slice(4, 8).map((logo, index) => (
           <Col key={index} xs={12} sm={6}>
             <ImageDisplay className="logo" imageLink={logo} width={'160PX'} preview={false} />
