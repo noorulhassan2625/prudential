@@ -362,7 +362,10 @@ button {
     margin: 0px;
   }
   .topHeader {
-    padding: 20px !important;
+    padding: 10px 20px !important;
+  }
+  .topHeader button.ant-btn {
+    padding: 30px 10px !important;
   }
   .steps-container {
     padding: 20px !important;
