@@ -53,9 +53,9 @@ const RecentlySold = () => {
             <Title level={4}>{property.price}</Title>
             <Text>{property.address}</Text>
             <div className='property-info'>
-              <Text><HomeOutlined /> {property.beds}</Text>
-              <Text><CarOutlined /> {property.baths}</Text>
-              <Text><ArrowsAltOutlined /> {property.size}</Text>
+              <Text><HomeOutlined  style={{ color: '#FF9F1C' }}/> {property.beds}</Text>
+              <Text><CarOutlined style={{ color: '#FF9F1C' }} /> {property.baths}</Text>
+              <Text><ArrowsAltOutlined style={{ color: '#FF9F1C' }} /> {property.size}</Text>
             </div>
           </Card>
         ))}

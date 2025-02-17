@@ -15,19 +15,29 @@ const logos = [
 function LogoSlider () {
   return (
     <div className='logo-slider-section'>
-      <Title level={3} className='sectionTitle'>
+      <Title level={3} className='sectionTitle desktop-view'>
         We have over 203 Cash Buyers near you. Enter your address to get
         started.
+      </Title>
+      <Title level={3} className='sectionTitle mobileView'>
+      We have over 222 Cash Buyers 
       </Title>
       <div style={{ padding: '0px 20px' }}>
         <Row>
           <Col span={6}>
             <Title
               level={3}
-              className='titleBox'
+              className='titleBox desktop-view'
               style={{ paddingBottom: '20px' }}
             >
               Compare offers from Cash Buyers including:
+            </Title>
+            <Title
+              level={3}
+              className='titleBox mobileView'
+              style={{ paddingBottom: '20px' }}
+            >
+               Compare offers from Cash Buyers including:
             </Title>
           </Col>
           <Col span={18}>

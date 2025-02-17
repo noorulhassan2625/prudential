@@ -30,7 +30,7 @@ export default function Testimonials () {
       <Title className='sectionTitle'>
         Compare cash offers from the biggest investors and cash buyers in the USA
       </Title>
-      <Row gutter={[16, 16]} justify='center'>
+      <Row gutter={[16, 16]} justify='center' className='testimonial-row'>
         {testimonials.map((testi, index) => (
           <Col key={index} xs={24} md={8}>
             <div className="card-wrapper">

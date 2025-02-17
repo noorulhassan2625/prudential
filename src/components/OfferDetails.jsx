@@ -1,6 +1,6 @@
 import { Typography, Table, Col } from 'antd';
 import React from 'react';
-import { CheckCircleTwoTone, CloseCircleOutlined } from '@ant-design/icons';
+import {  CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons';
 
 const { Title } = Typography;
 
@@ -29,44 +29,44 @@ const OfferDetails = () => {
     {
       key: '1',
       feature: 'Cash offer within a week',
-      traditional: <CloseCircleOutlined style={{ color: 'gray' }} />,
-      prudential: <CheckCircleTwoTone twoToneColor="#1890ff" />,
+      traditional: <CloseCircleFilled style={{ color: '#C5C8CD' ,fontSize:'20px' }} />,
+      prudential: <CheckCircleFilled style={{ color: '#1192E5',fontSize:'20px'}} />,
     },
     {
       key: '2',
       feature: 'No repairs or updates',
-      traditional: <CloseCircleOutlined style={{ color: 'gray' }} />,
-      prudential: <CheckCircleTwoTone twoToneColor="#1890ff" />,
+      traditional: <CloseCircleFilled style={{ color: '#C5C8CD' ,fontSize:'20px' }} />,
+      prudential: <CheckCircleFilled style={{ color: '#1192E5',fontSize:'20px'}} />,
     },
     {
       key: '3',
       feature: 'No listing or showings',
-      traditional: <CloseCircleOutlined style={{ color: 'gray' }} />,
-      prudential: <CheckCircleTwoTone twoToneColor="#1890ff" />,
+      traditional: <CloseCircleFilled style={{ color: '#C5C8CD' ,fontSize:'20px' }} />,
+      prudential: <CheckCircleFilled style={{ color: '#1192E5',fontSize:'20px'}} />,
     },
     {
       key: '4',
       feature: 'No offer negotiation or buyer demands',
-      traditional: <CloseCircleOutlined style={{ color: 'gray' }} />,
-      prudential: <CheckCircleTwoTone twoToneColor="#1890ff" />,
+      traditional: <CloseCircleFilled style={{ color: '#C5C8CD' ,fontSize:'20px' }} />,
+      prudential: <CheckCircleFilled style={{ color: '#1192E5',fontSize:'20px'}} />,
     },
     {
       key: '5',
       feature: 'No home sale contingency on next home purchase',
-      traditional: <CloseCircleOutlined style={{ color: 'gray' }} />,
-      prudential: <CheckCircleTwoTone twoToneColor="#1890ff" />,
+      traditional: <CloseCircleFilled style={{ color: '#C5C8CD' ,fontSize:'20px' }} />,
+      prudential: <CheckCircleFilled style={{ color: '#1192E5',fontSize:'20px'}} />,
     },
     {
       key: '6',
       feature: 'No expensive double mortgage, bridge loan, or interim housing',
-      traditional: <CloseCircleOutlined style={{ color: 'gray' }} />,
-      prudential: <CheckCircleTwoTone twoToneColor="#1890ff" />,
+      traditional: <CloseCircleFilled style={{ color: '#C5C8CD' ,fontSize:'20px' }} />,
+      prudential: <CheckCircleFilled style={{ color: '#1192E5',fontSize:'20px'}} />,
     },
     {
       key: '7',
       feature: 'Close in as little as 10 days',
-      traditional: <CloseCircleOutlined style={{ color: 'gray' }} />,
-      prudential: <CheckCircleTwoTone twoToneColor="#1890ff" />,
+      traditional: <CloseCircleFilled style={{ color: '#C5C8CD' ,fontSize:'20px' }} />,
+      prudential: <CheckCircleFilled style={{ color: '#1192E5',fontSize:'20px'}} />,
     },
   ];
 
@@ -83,7 +83,6 @@ const OfferDetails = () => {
         columns={columns} 
         dataSource={data} 
         pagination={false} 
-        bordered
         className='offerTable'
       />
       </Col>

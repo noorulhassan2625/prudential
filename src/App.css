@@ -1,7 +1,24 @@
 body {
   margin: 0px;
   background-color: white;
+  font-family: 'Open Sans', serif !important;
 }
+.ant-typography,
+.ant-btn,
+.ant-card,
+.ant-select,
+.ant-input,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', serif !important;
+}
+
 .topHeader {
   padding: 20px 80px !important;
 }
@@ -16,6 +33,9 @@ button {
 .hero {
   background-color: white;
   margin-top: 50px;
+}
+.hero .addressInput input {
+  margin-top: 5px !important;
 }
 .mainTitle {
   font-size: 42px !important;
@@ -129,12 +149,18 @@ button {
   text-align: center;
   background-color: #f2f8fe !important;
 }
-
+.testimonials-container .testimonial-row {
+  padding: 0px 50px;
+}
 .card-wrapper {
   height: 100%; /* Ensures equal card height */
   display: flex;
   box-shadow: 0 4px 20px rgba(55, 106, 206, 0.1);
-  margin: 30px;
+  margin: 20px;
+}
+.card-wrapper .testimonialsText {
+  font-size: 16px !important;
+  font-weight: 600 !important;
 }
 
 .ant-card {
@@ -151,8 +177,29 @@ button {
   flex-direction: column;
 }
 
-.offerTable {
+/* .offerTable {
   box-shadow: 0 4px 20px rgba(55, 106, 206, 0.1);
+} */
+.offerDetails thead tr th,
+.offerDetails tr td {
+  font-size: 16px !important;
+  border-right: 1px solid #eef0f6 !important;
+  border-left: 1px solid #eef0f6 !important;
+  padding: 20px !important;
+}
+.offerDetails thead tr th:first-child {
+  background: transparent;
+  border: 0px !important;
+}
+.offerDetails tbody .ant-table-row-level-0:first-child td:first-child {
+  border-top: 1px solid #eef0f6 !important;
+  border-top-left-radius: 15px !important;
+}
+.offerDetails thead tr th:nth-child(2) {
+  border-top-left-radius: 15px;
+}
+.offerDetails .ant-table-tbody {
+  border: 1px solid #fefefe !important;
 }
 
 .recently-sold-section {
@@ -166,6 +213,14 @@ button {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  padding: 0px 50px;
+}
+.recently-sold-container h4 {
+  margin-bottom: 0px;
+}
+.recently-sold-container .ant-tag {
+  position: absolute;
+  top: -25px;
 }
 
 .recently-sold-card {
@@ -191,10 +246,11 @@ button {
 
 .property-info {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 10px;
   font-size: 14px;
   color: #555;
+  gap: 10px;
 }
 
 .recently-sold-card .ant-card-body {
@@ -215,7 +271,7 @@ button {
 
 .faq-section {
   text-align: center;
-  padding: 40px;
+  padding: 70px;
   background-color: #fff;
 }
 
@@ -325,7 +381,9 @@ button {
 .MobileSteps {
   display: none !important;
 }
-
+.logo-slider-section .mobileView {
+  display: none;
+}
 /* ======== Responsive CSS ======= */
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .ant-steps-item-container {
@@ -343,12 +401,29 @@ button {
   }
 }
 
+/* ====== mobile reponsive ==== */
+
 @media screen and (min-width: 375px) and (max-width: 599px) {
-  .hero-content{
+  .hero-content {
     padding: 30px !important;
   }
   .ant-steps-item-container {
     width: 100%;
+  }
+  .testimonials-container .testimonial-row {
+    padding: 0px 20px !important;
+  }
+  .recently-sold-section {
+    padding: 0px !important;
+  }
+  .recently-sold-container .ant-tag {
+    top: -10px !important;
+  }
+  .faq-section {
+    padding: 40px;
+  }
+  .logo-slider-section .ant-col-6 h3 {
+    font-size: 14px !important;
   }
   button.ant-btn {
     padding: 20px 10px !important;
@@ -366,6 +441,15 @@ button {
   }
   .topHeader button.ant-btn {
     padding: 30px 10px !important;
+  }
+  .hero .ant-image {
+    padding: 0px 20px !important;
+  }
+  .investorsLogo .ant-image {
+    padding: 0px 10px !important;
+  }
+  .mainTitle {
+    font-size: 32px !important;
   }
   .steps-container {
     padding: 20px !important;
@@ -401,15 +485,16 @@ button {
   .logo-slider-section .ant-row {
     display: block !important;
   }
-  .logo-slider-section .ant-col-6 ,  .logo-slider-section .ant-col-18 {
+  .logo-slider-section .ant-col-6,
+  .logo-slider-section .ant-col-18 {
     max-width: 100% !important;
   }
-  .logo-slider-section .ant-col-6 h3{
+  .logo-slider-section .ant-col-6 h3 {
     margin: 0px !important;
     padding-bottom: 0px !important;
     text-align: center;
   }
-  .logo-slider{
+  .logo-slider {
     padding: 8px 0px !important;
   }
   .DesktopSteps {
@@ -421,10 +506,10 @@ button {
   .MobileSteps .ant-steps-item-content {
     text-align: center !important;
   }
-  .MobileSteps .ant-steps-item-tail{
-    display: block !important;  
+  .MobileSteps .ant-steps-item-tail {
+    display: block !important;
   }
-  .MobileSteps img{
+  .MobileSteps img {
     width: 100px !important;
     position: relative;
     left: -20px;
@@ -432,10 +517,16 @@ button {
   .logos-row {
     margin-top: 0px !important;
   }
-  .logos-row img{
+  .logos-row img {
     margin-top: 50px;
   }
-  .hero .ant-input.ant-input-lg{
+  .hero .ant-input.ant-input-lg {
     margin-top: 0px !important;
+  }
+  .logo-slider-section  .desktop-view {
+    display: none !important;
+  }
+  .logo-slider-section .mobileView {
+    display: block !important;
   }
 }
